@@ -44,7 +44,10 @@ button:focus {
 .box-icon-modern {
     padding: 20px; /* Padding inside the box */
     background-color: rgba(255, 255, 255, 0); /* Optional: If you want the inner box to have a distinct background */
-    border-radius: 10px; /* Optional: If you want the inner box to have rounded borders */
+    border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Optional: If you want the inner box to have rounded borders */
 }
 
 button::-moz-focus-inner {
@@ -1582,6 +1585,21 @@ img {
 	}
 	.icon-gradient-4 {
 		background: linear-gradient(228.54deg, #00E175 0%, #5656DF 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.icon-gradient-5 {
+		background: linear-gradient(228.54deg, #e10047 0%, #ef5000 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.icon-gradient-6 {
+		background: linear-gradient(228.54deg, #5600e1 0%, #ffc800 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	.icon-gradient-7 {
+		background: linear-gradient(228.54deg, #0700e1 0%, #d3004d 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
