@@ -891,12 +891,92 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-img-animate .box-img-animate-item {
 	display: inline-block;
+	width: 217px; /* Set your desired width */
+	height: 153px; /* Set your desired height */
+	overflow: hidden; /* Ensure content does not overflow the container */
+	position: relative; /
+}
+.box-img-animate .box-img-animate-item2 {
+	display: inline-block;
+	width: 271px; /* Set your desired width */
+	height: 191px; /* Set your desired height */
+	overflow: hidden; /* Ensure content does not overflow the container */
+	position: relative; /
 }
 
-.box-img-animate .box-img-animate-item img {
-	border-radius: 6px;
-	box-shadow: 8px 14px 40px rgba(0, 0, 0, 0.25);
+.box-img-animate .box-img-animate-item3 {
+	display: inline-block;
+	width: 339px; /* Set your desired width */
+	height: 236px; /* Set your desired height */
+	overflow: hidden; /* Ensure content does not overflow the container */
+	position: relative; /
 }
+
+.box-img-animate .box-img-animate-item4 {
+	display: inline-block;
+	width: 179px; /* Set your desired width */
+	height: 126px; /* Set your desired height */
+	overflow: hidden; /* Ensure content does not overflow the container */
+	position: relative; /
+}
+
+
+.box-img-animate .box-img-animate-item img {
+	border-radius: 10px;
+	box-shadow: 8px 14px 40px rgba(0, 0, 0, 0.25);
+	width: 100%; /* Make sure the image covers the container */
+	height: 100%; /* Make sure the image covers the container */
+	object-fit:cover; /* Ensure the image fits within the container without being cropped */
+	position: absolute; /* Position the image absolutely within the container */
+	top: 0;
+	left: 0;
+}
+
+.box-img-animate .box-img-animate-item2 img {
+	border-radius: 10px;
+	box-shadow: 8px 14px 40px rgba(0, 0, 0, 0.25);
+	width: 100%; /* Make sure the image covers the container */
+	height: 100%; /* Make sure the image covers the container */
+	object-fit:cover; /* Ensure the image fits within the container without being cropped */
+	position: absolute; /* Position the image absolutely within the container */
+	top: 0;
+	left: 0;
+}
+
+.box-img-animate .box-img-animate-item3 img {
+	border-radius: 10px;
+	box-shadow: 8px 14px 40px rgba(0, 0, 0, 0.25);
+	width: 100%; /* Make sure the image covers the container */
+	height: 100%; /* Make sure the image covers the container */
+	object-fit:cover; /* Ensure the image fits within the container without being cropped */
+	position: absolute; /* Position the image absolutely within the container */
+	top: 0;
+	left: 0;
+}
+
+.box-img-animate .box-img-animate-item4 img {
+	border-radius: 10px;
+	box-shadow: 8px 14px 40px rgba(0, 0, 0, 0.25);
+	width: 100%; /* Make sure the image covers the container */
+	height: 100%; /* Make sure the image covers the container */
+	object-fit:cover; /* Ensure the image fits within the container without being cropped */
+	position: absolute; /* Position the image absolutely within the container */
+	top: 0;
+	left: 0;
+}
+
+.box-img-animate .box-img-animate-item5 img {
+	border-radius: 10px;
+	box-shadow: 8px 14px 40px rgba(0, 0, 0, 0.25);
+	width: 100%; /* Make sure the image covers the container */
+	height: 100%; /* Make sure the image covers the container */
+	object-fit:cover; /* Ensure the image fits within the container without being cropped */
+	position: absolute; /* Position the image absolutely within the container */
+	top: 0;
+	left: 0;
+}
+
+
 
 @media (max-width: 1199.98px) {
 	.box-img-animate .box-img-animate-item + .box-img-animate-item {
